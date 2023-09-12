@@ -10,12 +10,15 @@ The repository consists of three folders:
 1. Main Project - This is where the code for the final version of the project resides. It can be run in the following order:
 
 DataUpload - uploads, cleans, and categorizes the data using ada-embeddings
+
 SurveyUpload - uploads and cleans the survey data
 
 The three "ML" files:
 
 SurveyML - performs simple statistical analysis (mostly regressions) on the survey data
+
 DataML - attempts more advanced predictions using gradient boosted trees
+
 EmbeddingML - the most ambitious part of the project, implements a LSTM neural net to predict survey outcomes based on the embedded user data
 
 ----------------------------------------
